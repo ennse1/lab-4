@@ -1,3 +1,3 @@
-# AvaloniaApplication2
+# RomanCalc
 4 lab roman numbers calculator
  
