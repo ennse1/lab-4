@@ -10,8 +10,6 @@ namespace RomanCalc.Models
     {
         public static ushort ToInteger(string number)
         {
-
-
             number = new string(number.Reverse().ToArray());
             ushort to_integer = 0;
             for (int i = 0; i < number.Length; i++)
