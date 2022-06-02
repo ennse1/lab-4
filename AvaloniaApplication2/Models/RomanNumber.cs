@@ -49,7 +49,6 @@ namespace RomanCalc.Models
         }
         public static RomanNumber operator /(RomanNumber? n1, RomanNumber? n2)
         {
-
             if (n2.number == 0) throw new RomanNumberException("division error");
             else
             {
@@ -93,7 +92,5 @@ namespace RomanCalc.Models
             else
                 throw new RomanNumberException("object is not a RomanNumber");
         }
-
     }
-
 }
